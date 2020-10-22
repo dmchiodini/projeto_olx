@@ -10,9 +10,7 @@ form {
 
     .area {
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
+        align-items: center;
         padding: 10px;
         max-width: 500px;
 
@@ -24,7 +22,8 @@ form {
             font-size: 14px;
         }
 
-        .area--input {flex: 1;
+        .area--input {
+            flex: 1;
 
             input {
                 width: 100%;
