@@ -66,9 +66,11 @@ nav {
 
             &.button {
                 background-color: #FF8100;
-                border-radius: 25px;
                 color: #FFF;
                 padding: 8px 15px;
+                font-size: 15px;
+                border: 0;
+                border-radius: 5px;
             }
 
             &.button:hover {
