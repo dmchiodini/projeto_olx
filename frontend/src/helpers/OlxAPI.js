@@ -130,6 +130,14 @@ const OlxAPI = {
             fData
         );
         return json;
+    },
+
+    getUser:async (token) => {
+        const json = await apiFetchGet(
+            '/user/me',
+            token
+        );
+        return json;
     }
 
 };

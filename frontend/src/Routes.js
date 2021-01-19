@@ -11,6 +11,7 @@ import SignUp from './pages/SignUp';
 import AdPage from './pages/AdPage';
 import AddAd from './pages/AddAd';
 import Ads from './pages/Ads';
+import MyAccount from './pages/MyAccount';
 
 export default () => {
     return (
@@ -35,6 +36,9 @@ export default () => {
             </RouterHandler>
             <RouterHandler exact path="/ads">
                 <Ads />
+            </RouterHandler>
+            <RouterHandler exact path="/my-account">
+                <MyAccount />
             </RouterHandler>
             <RouterHandler>
                 <NotFound />
