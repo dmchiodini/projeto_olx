@@ -14,7 +14,7 @@ export const Item = styled.div`
 
         &:hover {
             background-color: #EEE;
-            border: 1px solid #DDD;
+            border: 1px solid #CCC;
         }
 
         .itemImage img {

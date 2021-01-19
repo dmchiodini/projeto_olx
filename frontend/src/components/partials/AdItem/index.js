@@ -5,7 +5,7 @@ import { Item } from './styled';
 export default (props) => {
     let price = '';
 
-    if(props.data.priceNEgotiable) {
+    if(props.data.priceNgotiable) {
         price = "Preço Negociável";
     } else {
         price = `R$ ${props.data.price}`;
